@@ -4,7 +4,6 @@ import { useState } from "react";
 import {
   File,
   Home,
-  LineChart,
   ListFilter,
   Package,
   Package2,
@@ -145,24 +144,9 @@ const SharedLayout = () => {
           <Tooltip>
             <TooltipTrigger asChild>
               <a
-                href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
-              >
-                <LineChart className="h-5 w-5" />
-                <span className="sr-only">Analytics</span>
-              </a>
-            </TooltipTrigger>
-            <TooltipContent side="right">Analytics</TooltipContent>
-          </Tooltip>
-          </TooltipProvider>
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <a
                 href="/dashboard"
                 className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
-                <LineChart className="h-5 w-5" />
                 <span className="sr-only">Dashboard</span>
               </a>
             </TooltipTrigger>
