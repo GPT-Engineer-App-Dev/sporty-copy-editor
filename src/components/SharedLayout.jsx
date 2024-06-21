@@ -140,19 +140,7 @@ const SharedLayout = () => {
             <TooltipContent side="right">Customers</TooltipContent>
           </Tooltip>
           </TooltipProvider>
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <a
-                href="/dashboard"
-                className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
-              >
-                <span className="sr-only">Dashboard</span>
-              </a>
-            </TooltipTrigger>
-            <TooltipContent side="right">Dashboard</TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
