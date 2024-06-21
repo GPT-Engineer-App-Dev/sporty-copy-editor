@@ -71,11 +71,11 @@ const Index = () => {
     <Tabs defaultValue="all">
       <div className="flex items-center">
         <TabsList>
-          <TabsTrigger value="all">All</TabsTrigger>
-          <TabsTrigger value="active">Active</TabsTrigger>
-          <TabsTrigger value="draft">Draft</TabsTrigger>
+          <TabsTrigger value="all">All Sports</TabsTrigger>
+          <TabsTrigger value="active">Active Sports</TabsTrigger>
+          <TabsTrigger value="draft">Draft Sports</TabsTrigger>
           <TabsTrigger value="archived" className="hidden sm:flex">
-            Archived
+            Archived Sports
           </TabsTrigger>
         </TabsList>
         <div className="ml-auto flex items-center gap-2">
@@ -117,9 +117,9 @@ const Index = () => {
       <TabsContent value="all">
         <Card x-chunk="dashboard-06-chunk-0">
           <CardHeader>
-            <CardTitle>Products</CardTitle>
+            <CardTitle>Sports Products</CardTitle>
             <CardDescription>
-              Manage your products and view their sales performance.
+              Manage your sports products and view their performance.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -128,7 +128,7 @@ const Index = () => {
           <CardFooter>
             <div className="text-xs text-muted-foreground">
               Showing <strong>1-10</strong> of <strong>32</strong>{" "}
-              products
+              sports products
             </div>
           </CardFooter>
         </Card>
